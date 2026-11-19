@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#080d19">
+  <title>Rankings — Altair</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700&family=Hanken+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="icon" href="altairLogo.png"><link rel="stylesheet" href="style.css">
+</head>
+<body><div class="site-shell">
+<header class="topbar"><a class="brand" href="index.html"><img class="brand-mark" src="altairLogo.png" alt=""><span>Altair</span></a><button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation" aria-expanded="false">☰</button><nav class="nav-links" id="navLinks"><a href="index.html">Overview</a><a class="active" href="leaderboard.html">Rankings</a><a href="players.html">Players</a><a href="about.html">About</a></nav><a class="nav-cta" href="https://discord.gg/HVEfteFdDG" target="_blank" rel="noopener">Join Discord</a></header>
+<main class="inner-page">
+  <div class="page-kicker"><span class="status-dot"></span> COMPETITIVE DIVISION <span class="slash">/</span> SEASON <span data-season>2</span></div>
+  <div class="page-title-row"><div><h1>The <span>rankings.</span></h1><p class="page-intro">Ranked Bedwars Leaderboard. Every player who played on Altair is listed here. View statistics beyond just wins</p></div><div class="season-stamp"><span class="mono">CURRENT SEASON</span><strong data-season>2</strong></div></div>
+  <div class="toolbar panel">
+    <label class="search-box"><span>⌕</span><input id="playerSearch" type="search" placeholder="Search player IGN..." autocomplete="off"></label>
+    <div class="filter-group"><label for="sortSelect">SORT BY</label><select id="sortSelect"><option value="elo">Elo rating</option><option value="winRate">Win rate</option><option value="kdr">K/D ratio</option></select></div>
+  </div>
+  <div class="panel leaderboard-panel">
+    <div class="table-topline"><span>RANKED BEDWARS</span><span class="mono" id="playerCount">0 PLAYERS</span></div>
+    <div class="full-table-wrap"><table class="data-table"><thead><tr><th>RANK</th><th>PLAYER</th><th>ELO</th><th>RECORD</th><th>WIN RATE</th><th>K/D</th><th>PEAK</th></tr></thead><tbody id="leaderboardBody"></tbody></table></div>
+    <div class="table-bottom"><span class="muted">Altair Leaderboard.</span><span class="mono" data-updated></span></div>
+  </div>
+</main>
+<footer class="footer"><a class="brand" href="index.html"><img class="brand-mark" src="altairLogo.png" alt=""><span>Altair</span></a><span>Compete with players. Improve your gamesense, PvP skills and get a better place!</span><span class="mono">© ALTAIR 2026</span></footer>
+</div><script src="data.js"></script><script src="script.js"></script></body></html>

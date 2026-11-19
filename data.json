@@ -1,0 +1,10 @@
+{
+  "season": "2",
+  "game": "Bedwars",
+  "updated": "",
+  "players": [
+    { "ign": "Nok", "elo": 96, "peak": 131, "wins": 19, "losses": 18, "kills": 61, "deaths": 56, "finalKills": 33, "finalDeaths": 16, "beds": 3, "emeralds": 313, "mvps": 1, "streak": "1L", "tier": "Unranked", "history": [71, 76, 72, 83, 79, 88, 84, 96] },
+    { "ign": "ShockingEye", "elo": 31, "peak": 67, "wins": 15, "losses": 19, "kills": 0, "deaths": 0, "finalKills": 22, "finalDeaths": 0, "beds": 12, "emeralds": 0, "mvps": 0, "streak": "1W", "tier": "Unranked", "history": [45, 51, 43, 38, 31] },
+    { "ign": "xAz3rty", "elo": 45, "peak": 112, "wins": 5, "losses": 4, "kills": 66, "deaths": 63, "finalKills": 10, "finalDeaths": 10, "beds": 2, "emeralds": 111, "mvps": 0, "streak": "1W", "tier": "Unranked", "history": [67, 73, 58, 45] }
+  ]
+}
